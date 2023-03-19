@@ -1,0 +1,9 @@
+{
+  "item.guzzlerhelmet.soda": "Soda",
+  "item.guzzlerhelmet.empty_soda": "Empty Soda Bottle",
+
+  "block.guzzlerhelmet.soda_shelf": "Soda Shelf",
+  "block.guzzlerhelmet.empty_soda_shelf": "Empty Soda Shelf",
+
+  "itemGroup.helmettab": "Guzzler Helmet"
+}
