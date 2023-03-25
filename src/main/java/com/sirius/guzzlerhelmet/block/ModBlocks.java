@@ -1,6 +1,7 @@
 package com.sirius.guzzlerhelmet.block;
 
 import com.sirius.guzzlerhelmet.HelmetMod;
+import com.sirius.guzzlerhelmet.block.custom.SaltOre;
 import com.sirius.guzzlerhelmet.item.ModCreativeModeTab;
 import com.sirius.guzzlerhelmet.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -22,8 +23,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SODA_SHELF = registerBlock("soda_shelf",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1f)), ModCreativeModeTab.HELMET_TAB);
+
     public static final RegistryObject<Block> EMPTY_SODA_SHELF = registerBlock("empty_soda_shelf",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(1f)), ModCreativeModeTab.HELMET_TAB);
+
+
+    public static final RegistryObject<Block> SALT_ORE = registerBlock("salt_ore",
+            () -> new SaltOre(BlockBehaviour.Properties.of(Material.STONE).strength(0.4f).requiresCorrectToolForDrops()), ModCreativeModeTab.HELMET_TAB);
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

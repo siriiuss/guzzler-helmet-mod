@@ -1,9 +1,12 @@
 {
   "item.guzzlerhelmet.soda": "Soda",
   "item.guzzlerhelmet.empty_soda": "Empty Soda Bottle",
+  "item.guzzlerhelmet.eight_ball": "Eight Ball",
+  "item.guzzlerhelmet.salt": "Salt",
 
   "block.guzzlerhelmet.soda_shelf": "Soda Shelf",
   "block.guzzlerhelmet.empty_soda_shelf": "Empty Soda Shelf",
+  "block.guzzlerhelmet.salt_ore": "Salt Ore",
 
   "itemGroup.helmettab": "Guzzler Helmet"
 }
