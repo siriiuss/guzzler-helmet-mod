@@ -1,6 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/orientable",
   "textures": {
-    "all": "guzzlerhelmet:block/empty_soda_shelf"
+    "front": "guzzlerhelmet:block/empty_shelf",
+    "side": "guzzlerhelmet:block/shelf_side",
+    "top": "guzzlerhelmet:block/shelf_top"
   }
 }
